@@ -98,6 +98,10 @@ StyleCopReport.xml
 *_i.c
 *_p.c
 *_h.h
+
+# Elixir build artifacts and dependencies
+_build/
+deps/
 *.ilk
 *.meta
 *.obj

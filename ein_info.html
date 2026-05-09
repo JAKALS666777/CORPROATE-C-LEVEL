@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIN and Payment Link Information</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            border: 2px solid green;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #111;
+        }
+        h1 {
+            color: green;
+            text-shadow: 0 0 10px green;
+        }
+        .ein {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .link {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        a {
+            color: green;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Corporate C-Level Automation Results</h1>
+        <p>Your EIN Business Number:</p>
+        <div class="ein">RETRIEVED_EIN_FROM_VAULT</div>
+        <p>Stripe Payment Link:</p>
+        <div class="link"><a href="https://stripe.com/PAYMENTS-PRODUCTS-SERVICES" target="_blank">https://stripe.com/PAYMENTS-PRODUCTS-SERVICES</a></div>
+    </div>
+</body>
+</html>
